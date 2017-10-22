@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<!-- css -->
+		<link href="/client/assets/stylesheets/application.css" rel="stylesheet" type="text/css">
+		<!-- css -->
+
+		<!-- script -->
+		<!--<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>-->
+		<script src="/client/assets/javascript/socket.js"></script>
+		<script src="/client/assets/javascript/Inventory.js"></script>
+		<!-- script -->
+
+	</head>
+	<body>
+		<!-- Login Page -->
+		<div id="signDiv" class="main-index__sign-div-contain">
+			Username: <input id="signDiv-username" type="text" class="main-index__username"></input><br>
+			Password: <input id="signDiv-password" type="password" class="main-index__password"></input>
+			<button id="signDiv-signIn" class="main-index__sign-div-sign-in">Sign In</button>
+			<button id="signDiv-signUp" class="main-index__sign-div-sign-up">Sign Up</button>
+		</div>
+		<!-- Login Page -->
+
+		<!-- Gamimg Page -->
+		<div id="gameDiv" class="main-index__game-div">
+
+			<div id="game" class="main-index__game">
+				<canvas id="ctx" width="500" height="500" class="main-index__ctx"></canvas>
+				<canvas id="ctx-ui" width="500" height="500" class="main-index__ctx-ui"></canvas>
+				<div id="ui" class="main-index__ui">
+					<button onclick="changeMap()" class="main-index__change-map">
+						Change Map
+					</button>
+				</div>
+			</div>
+
+			<div id="belowGame" class="main-index__belowGame">
+				<div id="chat-text" class="main-index__chat-text">
+					<div>Hello!</div>
+				</div>
+				<div id="inventory"></div>
+				<form id="chat-form">
+					<!-- <input id="chat-input" type="text" class="main-index__chat-input"></input> -->
+				</form>
+			</div>
+
+		</div>
+		<!-- Gamimg Page -->
+
+	</body>
+
+	<script src="/client/assets/javascript/mainIndex.js"></script>
+
+</html>

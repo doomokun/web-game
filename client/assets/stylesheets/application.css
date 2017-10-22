@@ -1,0 +1,37 @@
+.main-index__game-div {
+  display: none;
+}
+.main-index__game {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+.main-index__ctx {
+  position:absolute;
+  border:1px solid #000000;
+}
+.main-index__ctx-ui {
+  position:absolute;
+  border:1px solid #000000;
+}
+.main-index__ui {
+  position:absolute;
+  width:500px;
+  height:500px;
+}
+.main-index__change-map {
+  position:absolute;
+  bottom:0px;
+  left:0px;
+}
+.main-index__belowGame {
+  margin-top:520px;
+}
+.main-index__chat-text {
+  width:500px;
+  height:100px;
+  overflow-y:scroll;
+}
+.main-index__chat-input {
+  width:500px;
+}
